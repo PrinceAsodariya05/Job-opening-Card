@@ -1,12 +1,9 @@
-
-
-
-h1{
+/* h1{
   
   color: rgb(228, 225, 26);
 }
 body{
-  background: #17bacf;
+  background: #0c0c0c;
   
 }
 .bholu{
@@ -17,7 +14,7 @@ body{
 } 
 .bholu{
   width: 300px;
-  background-color: rgb(70, 178, 240);
+  background-color: rgb(70, 230, 56);
   margin: 10px;
   border-radius: 20px;
   padding: 20px;
@@ -75,4 +72,38 @@ p{
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 10px;
+} */
+.parent{
+  background-color: rgb(8, 8, 8);
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+}
+.card{
+  background-color: aliceblue;
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+  padding: 20px;
+  
+}
+.top {
+  position: relative;
+}
+.top button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  border-radius: 10px;
+  border: 10px;
+  color: #113135;
+  background-color: aqua;
+}
+.top img{
+  height: 30px;
+  width: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+
 }

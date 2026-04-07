@@ -1,20 +1,31 @@
 import React from 'react'
+import {Bookmark} from 'lucide-react'
+import '../App.css'
 
-const one = (props) => {
+const Card = (props) => {
   return (
-    <div className='cards-container'>
-      <div className='dholu'>
-        <img src={props.img} alt="" />
-        <h1>{props.user},{props.age}</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, officia?</p>
+    <div className="card">
+      <div className="top">
+        <img src="https://static.vecteezy.com/system/resources/previews/018/779/928/original/3d-illustration-of-amazon-logo-free-png.png" alt="Company logo" />
+        <button>Save <Bookmark size={14} /></button>
       </div>
-      <div className='bholu'>
-        <h1>i guess its working</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur ipsam error esse minima veritatis quis officiis doloribus officia fugiat.</p>
-        <button>Enter to visit nothing</button>
+      <div className="center">
+        <h3>Amazon <span>5 days ago</span></h3>
+        <h2>Senior UI/UX Designer</h2>
+        <div className="tags">
+          <span className="tag">Part-Time</span>
+          <span className="tag">Senior Level</span>
+        </div>
+      </div>
+      <div className="bottom">
+        <div className="bottom-info">
+          <h3>$120/hr</h3>
+          <p>Mumbai, India</p>
+        </div>
+        <button>Apply now</button>
       </div>
     </div>
   )
 }
 
-export default one
+export default Card
