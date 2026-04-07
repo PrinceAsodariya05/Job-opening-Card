@@ -6,7 +6,7 @@ const Card = ({ job }) => {
   return (
     <div className="card">
       <div className="top">
-        <img src="https://tse3.mm.bing.net/th/id/OIP.-gdVi6c27ebQfsDpDybg3QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+        <img src={job.brandLogo}  />
         <button>Save <Bookmark size={14} /></button>
       </div>
       <div className="center">

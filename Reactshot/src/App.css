@@ -1,5 +1,5 @@
 body {
-  background: #f5f7fb;
+  background: #a0f5f5;
   margin: 0;
   min-height: 100vh;
   font-family: Inter, system-ui, Arial, sans-serif;
@@ -20,15 +20,14 @@ body {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #a9f5e2;
   width: 320px;
-  height: 400px;
+  height: 320px;
   border-radius: 36px;
   border: 1px solid rgba(15, 23, 42, 0.08);
   box-shadow: 0 28px 60px rgba(15, 23, 42, 0.08);
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .top {
@@ -43,7 +42,8 @@ body {
   height: 48px;
   width: 48px;
   border-radius: 50%;
-  object-fit: cover;
+  padding: 2px;
+  object-fit: fill;
 }
 
 .top button {
@@ -169,4 +169,10 @@ body {
     padding-left: 18px;
     padding-right: 18px;
   }
+}
+
+.center h3{
+  font-size: 35px;
+  color: black;
+  font-family: Bold;
 }
